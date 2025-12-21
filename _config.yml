@@ -1,43 +1,40 @@
-# ===============================
-# Site Settings
-# ===============================
 title: "Nandini Rathore | Azure Data Engineer"
 subtitle: "Building secure, scalable cloud data platforms"
 description: >
   Azure Data Engineer with 4+ years of experience delivering
   enterprise-grade data platforms in banking and finance using
   Azure Data Factory, Databricks, Delta Lake, Synapse, and Power BI.
+
 url: "https://nandinirana23.github.io"
 baseurl: ""
-logo: "images.jpeg"
 
-# ===============================
-# Author / Profile
-# ===============================
+logo: "/assets/images/images.jpeg"
+
+# THEME (Correct way for GitHub Pages)
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "air"
+
+# Author
 author:
   name: "Nandini Rathore"
-  role: "Azure Data Engineer"
+  avatar: "/assets/images/images.jpeg"
   bio: >
-    Azure Data Engineer with 4+ years of experience designing,
-    building, and optimizing secure cloud data platforms in
-    regulated financial environments. Specialized in ETL/ELT,
-    lakehouse architectures, and analytics-driven solutions.
+    Azure Data Engineer with 4+ years of experience in regulated
+    banking environments, specializing in Azure data platforms.
   location: "Canada"
-  email: "rathorenandini2310@gmail.com"
-  phone: "+1-905-650-8123"
-  linkedin: "https://www.linkedin.com/in/nandini-rathore/"
-  github: "https://github.com/NANDINIRANA23"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:rathorenandini2310@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/nandini-rathore/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/NANDINIRANA23"
 
-# ===============================
-# Theme & Appearance
-# ===============================
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: "air"   # options: air, dark, contrast, neon, etc.
-
-# ===============================
-# Navigation Menu
-# ===============================
-navigation:
+# Navigation (Correct key)
+nav:
   - title: "Home"
     url: /
   - title: "About"
@@ -51,124 +48,8 @@ navigation:
   - title: "Resume"
     url: /resume/
 
-# ===============================
-# Social Links
-# ===============================
-social_links:
-  - label: "LinkedIn"
-    icon: "fab fa-linkedin"
-    url: "https://www.linkedin.com/in/nandini-rathore/"
-  - label: "GitHub"
-    icon: "fab fa-github"
-    url: "https://github.com/NANDINIRANA23"
-  - label: "Email"
-    icon: "fas fa-envelope"
-    url: "mailto:rathorenandini2310@gmail.com"
-
-# ===============================
-# Skills Section
-# ===============================
-skills:
-  Cloud & Platforms:
-    - Azure Data Factory
-    - Azure Databricks
-    - Azure Synapse Analytics
-    - Azure SQL Database
-  Data Engineering:
-    - Delta Lake
-    - Medallion Architecture
-    - SCD Type 1 & 2
-    - ETL / ELT Pipelines
-  Programming:
-    - SQL
-    - Python
-    - PySpark
-    - JSON
-  Data & BI:
-    - Power BI
-    - Star Schema
-    - Dimensional Modeling
-  DevOps & Monitoring:
-    - Azure DevOps
-    - CI/CD Pipelines
-    - Azure Monitor
-    - Log Analytics
-
-# ===============================
-# Experience Highlights
-# ===============================
-experience:
-  - company: "CIBC Bank, Canada"
-    role: "Data Engineer"
-    duration: "Oct 2023 – Present"
-    highlights:
-      - Designed ADF & Databricks pipelines ingesting 10M+ records daily
-      - Improved performance by 30% using PySpark & Delta Lake
-      - Implemented SCD Type 1 & 2 for regulatory reporting
-      - Enforced RBAC & secure access for financial datasets
-
-  - company: "Axis Bank, India"
-    role: "Azure Data Engineer"
-    duration: "Aug 2021 – Sept 2023"
-    highlights:
-      - Built ETL pipelines using ADF, SQL, and Python
-      - Optimized Azure SQL queries for high-volume data
-      - Automated data validation reducing manual checks by 40%
-      - Collaborated with finance & compliance teams
-
-# ===============================
-# Projects Section
-# ===============================
-projects:
-  - title: "End-to-End Customer Account Data Pipeline"
-    stack: "ADF, SQL Server, Azure SQL DB"
-    description: >
-      Designed an end-to-end pipeline with incremental loads
-      and SCD Type 1 transformations for scalable data movement.
-
-  - title: "Customer 360° Data Integration"
-    stack: "Azure Synapse, Power BI"
-    description: >
-      Built a unified analytics model and interactive dashboards
-      for customer insights and business decision-making.
-
-  - title: "Microsoft Fabric Data Pipeline"
-    stack: "Microsoft Fabric, Gateway"
-    description: >
-      Implemented incremental ingestion, SCD transformations,
-      and automated notifications.
-
-  - title: "Secure Data Engineering Workflow"
-    stack: "ADF, Databricks, Key Vault"
-    description: >
-      Developed secure pipelines with secrets management
-      and Gold-layer data publishing.
-
-# ===============================
-# Certifications
-# ===============================
-certifications:
-  - "DP-700 – Microsoft Fabric Data Engineer Associate"
-  - "DP-900 – Microsoft Azure Data Fundamentals"
-  - "IBM – Data Analysis with Python"
-  - "IBM – Databases and SQL for Data Science"
-  - "IBM – Python for Data Science, AI & Development"
-
-# ===============================
-# Plugins
-# ===============================
+# Plugins (GitHub Pages safe)
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-
-# ===============================
-# SEO
-# ===============================
-seo:
-  type: "Person"
-  name: "Nandini Rathore"
-  links:
-    - "https://www.linkedin.com/in/nandini-rathore/"
-    - "https://github.com/NANDINIRANA23"
-
