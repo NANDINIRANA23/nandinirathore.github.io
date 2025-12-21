@@ -88,9 +88,6 @@ Azure DevOps • Git • Jira • Confluence • Agile/Scrum
 - SCD Type 1 upsert framework  
 - Automated on-prem → cloud data movement
 
-  
-![LinkedIn Dashboard](/NANDINIRATHORE_BOOTCAMPPROJECT_01_PIPELINE FOR CUSTOMER ACCOUNT ANALYSIS)
----
 
 ### **Customer 360 Data Integration (Synapse + Power BI)**
 - Unified customer data model  
