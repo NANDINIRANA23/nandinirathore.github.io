@@ -88,7 +88,8 @@ Azure DevOps • Git • Jira • Confluence • Agile/Scrum
 - SCD Type 1 upsert framework  
 - Automated on-prem → cloud data movement
 
-/assets/pdf/Resume_Nandini_Rathore_Azure_Data_Engineer.pdf
+[View Project](/assets/pdf/Resume_Nandini_Rathore_Azure_Data_Engineer.pdf)
+
 
 
 
