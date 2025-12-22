@@ -1,3 +1,4 @@
+![LinkedIn DashBoard](/pic.jpg)
 # Nandini Rathore  
 ### Azure Data Engineer | 4+ Years Experience
 
