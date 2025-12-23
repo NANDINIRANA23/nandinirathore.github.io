@@ -1,5 +1,5 @@
 
-# Nandini Rathore  
+
 ### Azure Data Engineer | 4+ Years Experience
 
 📍 Canada    
