@@ -4,8 +4,8 @@
 
 title: "Nandini Rathore"
 description: "Data Engineer | Azure | ETL | Cloud | SQL | Synapse| Databricks|"
-baseurl: ""         # leave empty for root deployment
-url: "https://nandinirana23.github.io/nandinirathore.github.io/"
+baseurl: "/nandinirathore.github.io"      # leave empty for root deployment
+url: "https://nandinirana23.github.io"
 
 # -----------------------------------
 # Site Metadata
@@ -19,7 +19,7 @@ email: "rathorenandini2310@gmail.com"   # update with your real email
 # Theme / Plugins
 # -----------------------------------
 
-remote_theme: "pages-themes/minimal@v0.3.0"   # base theme
+remote_theme: "pages-themes/minimal@v0.2.0"   # base theme
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
@@ -36,7 +36,7 @@ navigation:
   - title: "About"
     url: "/about"
   - title: "Technical Skills"
-    url: "/Technical skills"
+    url: "/Technical-skills"
   - title: "Projects"
     url: "/projects"
   - title: "Experience"
