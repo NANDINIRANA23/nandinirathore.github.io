@@ -1,5 +1,83 @@
-remote_theme: pages-themes/modernist@v0.2.0
+# -------------------------------------------------------------------
+#  Cyber / Tech Gradient Portfolio - GitHub Pages Config
+# -------------------------------------------------------------------
+
+title: "Nandini Rathore"
+description: "Data Engineer | Azure | ETL | Cloud | SQL | Synapse| Databricks|"
+baseurl: ""         # leave empty for root deployment
+url: "https://nandinirana23.github.io/nandinirathore.github.io/"
+
+# -----------------------------------
+# Site Metadata
+# -----------------------------------
+
+name: "Nandini Rathore"
+role: "Data Engineer & ETL Developer"
+email: "rathorenandini2310@gmail.com"   # update with your real email
+
+# -----------------------------------
+# Theme / Plugins
+# -----------------------------------
+
+remote_theme: "pages-themes/minimal@v0.3.0"   # base theme
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: NANDINI RATHORE
-description: [Turning Data into insights]
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# -----------------------------------
+# Navigation - Header Menu
+# -----------------------------------
+
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about"
+  - title: "Technical Skills"
+    url: "/Technical skills"
+  - title: "Projects"
+    url: "/projects"
+  - title: "Experience"
+    url: "/experience"
+  - title: "Contact"
+    url: "/contact"
+
+# -----------------------------------
+# Social Profiles
+# -----------------------------------
+
+social_links:
+  linkedin: "https://linkedin.com/in/nandinirana23"
+  github: "https://github.com/nandinirana23"
+  email: "mailto:rathorenandini2310@gmail.com"
+
+# -----------------------------------
+# Build / Markdown
+# -----------------------------------
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# -----------------------------------
+# Custom CSS
+# -----------------------------------
+
+sass:
+  style: compressed
+
+# Path to your custom style file
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      custom_css: "/assets/css/style.css"
+
+# -----------------------------------
+# Optional Settings
+# -----------------------------------
+
+show_downloads: false
