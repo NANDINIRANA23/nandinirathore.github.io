@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  {% for item in site.navigation %}
+    <a href="{{ item.url }}">{{ item.title }}</a>
+  {% endfor %}
+</div>
+
+<!-- Page content -->
+<div class="content">
+  {{ content }}
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  © {{ site.title }} - {{ "now" | date: "%Y" }}
+</div>
+
+</body>
+</html>
