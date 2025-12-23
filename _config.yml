@@ -1,44 +1,5 @@
-title: "Nandini Rathore"
-description: "Azure Data Engineer | 4+ Years Experience"
-baseurl: "" 
-url: "https://nandinirana23.github.io/nandinirathore.github.io/"
-
-remote_theme: "pages-themes/modernlist@v0.2.0"
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-
-navigation:
-  - title: Home
-    url: "/"
-  - title: About
-    url: "/#about"
-  - title: Skills
-    url: "/skills"
-  - title: Projects
-    url: "/projects"
-  - title: Experience
-    url: "/experience"
-  - title: Contact
-    url: "/#contact"
-
-social_links:
-  linkedin: "https://www.linkedin.com/in/nandini-rathore"
-  github: "https://github.com/NANDINIRANA23"
-  email: "mailto:rathorenandini2310@gmail.com"
-
-markdown: kramdown
-kramdown:
-  input: GFM
-
-sass:
-  style: compressed
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-      custom_css: "/assets/css/style.css"
+title: Time Machine theme
+description: Time Machine is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-time-machine
