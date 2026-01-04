@@ -1,21 +1,16 @@
-const reveals = document.querySelectorAll(".reveal");
+document.addEventListener("DOMContentLoaded", () => {
+  const reveals = document.querySelectorAll(".reveal");
 
-function revealOnLoadAndScroll() {
   reveals.forEach(section => {
-    const top = section.getBoundingClientRect().top;
-    if (top < window.innerHeight - 50) {
-      section.classList.add("active");
-    }
+    section.classList.add("active");
   });
-}
 
-// Run on page load
-window.addEventListener("load", revealOnLoadAndScroll);
-
-// Run on scroll
-window.addEventListener("scroll", revealOnLoadAndScroll);
-/* FORCE SHOW CONTENT (DEBUG MODE) */
-.reveal {
-  opacity: 1 !important;
-  transform: none !important;
-}
+  window.addEventListener("scroll", () => {
+    reveals.forEach(section => {
+      const top = section.getBoundingClientRect().top;
+      if (top < window.innerHeight - 50) {
+        section.classList.add("active");
+      }
+    });
+  });
+});
