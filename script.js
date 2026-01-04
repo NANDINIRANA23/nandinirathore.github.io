@@ -14,3 +14,8 @@ window.addEventListener("load", revealOnLoadAndScroll);
 
 // Run on scroll
 window.addEventListener("scroll", revealOnLoadAndScroll);
+/* FORCE SHOW CONTENT (DEBUG MODE) */
+.reveal {
+  opacity: 1 !important;
+  transform: none !important;
+}
