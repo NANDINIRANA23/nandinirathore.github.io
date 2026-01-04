@@ -10,6 +10,7 @@ body {
   margin: auto;
 }
 
+/* HEADINGS */
 h1, h2, h3 {
   color: #a6ff00;
 }
@@ -22,6 +23,7 @@ h1, h2, h3 {
   color: #a6ff00;
 }
 
+/* LINKS & BUTTON */
 a {
   color: #3aa8ff;
   text-decoration: none;
@@ -42,6 +44,7 @@ a {
   color: #000;
 }
 
+/* SECTIONS */
 section {
   padding: 40px 0;
 }
@@ -52,7 +55,7 @@ hr {
   margin: 40px 0;
 }
 
-/* Cards */
+/* CARDS */
 .card {
   background: #111;
   padding: 20px;
@@ -72,9 +75,10 @@ hr {
   border-radius: 8px;
 }
 
-/* Animations */
+/* HERO ANIMATION */
 .fade-in {
   opacity: 0;
+  transform: translateY(30px);
   animation: fadeUp 1s ease forwards;
 }
 
@@ -85,17 +89,13 @@ hr {
   }
 }
 
+/* SCROLL REVEAL (SAFE) */
 .reveal {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.6s ease;
+  opacity: 1;               /* <-- IMPORTANT FIX */
+  transform: none;
 }
 
-.reveal.active {
-  opacity: 1;
-  transform: translateY(0);
-}
-
+/* SMOOTH SCROLL */
 html {
   scroll-behavior: smooth;
 }
