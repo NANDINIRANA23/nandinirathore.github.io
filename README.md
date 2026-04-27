@@ -1,6 +1,6 @@
 
 
-### Azure Data Engineer | 4+ Years Experience
+### Azure Data Engineer 
 
 📍 Canada    
 📧 rathorenandini2310@gmail.com  
